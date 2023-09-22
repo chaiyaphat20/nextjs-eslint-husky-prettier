@@ -9,7 +9,7 @@
     "lint": "next lint",
     "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json}\"",
     "prepare": "husky install",
-    "pre-commit": "npm run format && next lint"
+    "pre-commit": "npm run format && next lint && git add -A ."
   },
   "dependencies": {
     "@types/node": "20.6.3",
